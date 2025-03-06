@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دریوا - بازسازی خانه‌های رویایی</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border: 2px solid #333;
+            border-radius: 5px;
+        }
+        .contact-info {
+            background: #e2e2e2;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+        section {
+            margin: 20px 0;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>دریوا: جایی که خانه‌ی رویایی شما ساخته می‌شود</h1>
+        <p>از بازسازی تا طراحی داخلی، ما بهترین‌ها رو براتون می‌سازیم.</p>
+    </header>
+
+    <div class="container">
+        <!-- بخش درباره ما -->
+        <section>
+            <h2>درباره دریوا</h2>
+            <p>دریوا با بیش از ۱۰ سال تجربه در زمینه بازسازی و طراحی خانه، به یکی از معتبرترین شرکت‌های این حوزه تبدیل شده است. ما با تیمی متشکل از معماران، طراحان و مهندسان حرفه‌ای، پروژه‌های شما رو از ابتدا تا انتها مدیریت می‌کنیم. ماموریت ما اینه که فضایی زیبا، کاربردی و مطابق با سلیقه‌ی شما خلق کنیم.</p>
+        </section>
+
+        <!-- بخش خدمات -->
+        <section>
+            <h2>خدمات ما</h2>
+            <p>ما در دریوا خدمات متنوعی ارائه می‌دهیم تا هر نیازی که برای بازسازی خانه دارید رو برطرف کنیم:</p>
+            <ul>
+                <li><strong>بازسازی کامل خانه:</strong> از نوسازی دیوارها تا تعویض کف‌پوش‌ها.</li>
+                <li><strong>طراحی داخلی:</strong> طراحی مدرن و کلاسیک متناسب با سلیقه‌ی شما.</li>
+                <li><strong>تعمیرات جزئی:</strong> تعویض پنجره‌ها، درها و سرویس‌های بهداشتی.</li>
+                <li><strong>مشاوره رایگان:</strong> قبل از شروع هر پروژه، از مشاوره رایگان ما بهره‌مند شوید.</li>
+            </ul>
+        </section>
+
+        <!-- گالری عکس -->
+        <section>
+            <h2>گالری کارهای ما</h2>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/300" alt="نمونه کار 1">
+                <img src="https://via.placeholder.com/300" alt="نمونه کار 2">
+                <img src="https://via.placeholder.com/300" alt="نمونه کار 3">
+            </div>
+        </section>
+
+        <!-- اطلاعات تماس -->
+        <section class="contact-info">
+            <h2>تماس با ما</h2>
+            <p>📞 شماره تماس: ۰۹۱۲۱۲۳۴۵۶۷</p>
+            <p>📧 ایمیل: info@daryava.com</p>
+            <p>🏠 آدرس: تهران، خیابان آزادی، پلاک ۱۲۳</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© ۲۰۲۵ دریوا. تمام حقوق محفوظ است.</p>
+    </footer>
+</body>
+</html>
